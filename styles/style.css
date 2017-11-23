@@ -1,15 +1,24 @@
-div {
+
+
+#container {
+    position: relative;
+    top: 30px;
+    outline: 2px solid #000;
+    font-size: 0;
+    margin: auto;
     height: 500px;
     width: 500px;
-    margin: 0 auto;
+    padding: 0;
+    border: none;
+
 }
 
-div div {
-    height: 29px;
-    width: 29px;
-    float: left;
-    background-color: white;
-    border: 1px solid black;
+
+.grid {
+    padding: 0;
+    border: none;
+    outline: 1px solid #000;
+    display: inline-block;
 
 }
 
